@@ -4,7 +4,7 @@
 ***
 Functionalities include:
 
-`absolutely nothing yet this shit is empty lol`
+`absolutely nothing yet this shit is empty lmao`
 ***
 
 > Enjoy your stay!
