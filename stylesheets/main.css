@@ -127,7 +127,22 @@ a#redirect {
     font-weight: 400;
     
 }
+ /* Hero */
 
 #hero p{
     text-align: center;
 }
+
+/* Scrollbar */
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+body {
+    -ms-overflow-style: none;
+  }
+
+html {
+    scrollbar-width: none;
+  }
