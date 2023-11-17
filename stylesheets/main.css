@@ -103,8 +103,8 @@ section {
 
 #bg{
 
-    background-color: #000000bd;
-    background-image: url("/assets/images/bg.png");
+    background-color: #000000d8;
+    background-image: url("../assets/images/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
