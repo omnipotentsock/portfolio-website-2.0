@@ -1,4 +1,4 @@
-# OmnipotentSock's Le Recueil:
+# Omniascin:
 ## An assortment of random stuff I've created over the years.
 
 ***
