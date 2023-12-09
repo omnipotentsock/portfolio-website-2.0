@@ -1,8 +1,9 @@
 /* --- VARIABLES --- */
 :root {
     /* Fonts */
-    --text-font: "ClashDisplay";
-    --display-font: "Stardom";
+    --text-font: "AR-One-Sans";
+    --display-font: "ClashDisplay";
+    --nav-font: "Mirza"
 
     /* Colors */
     --lilac: #E096E7;
@@ -17,6 +18,16 @@
 @font-face {
     font-family: Stardom;
     src: url(../assets/fonts/Stardom_Complete/Fonts/OTF/Stardom-Regular.otf);
+}
+
+@font-face {
+    font-family: AR-One-Sans;
+    src: url(../assets/fonts/AR-One-Sans/AROneSans-VariableFont_ARRR\,wght.ttf);
+}
+
+@font-face {
+    font-family: Mirza;
+    src: url(../assets/fonts/Mirza/Mirza-Regular.ttf);
 }
 
 @font-face {
@@ -35,17 +46,51 @@ body,
 html {
     
     /* Text */
-  font-size: 85%;
+  font-size: 32px;
   color: var(--mint);
-  font-family: var(--text-font);
   font-weight: 100;
+
+  background-color: black;
 }
+
+/* --- NAVIGATION BAR --- */
+#navbar {
+	display: flex;
+	padding: 2.5em 0 1.5em 0;
+	align-items: center;
+	justify-content: space-between;
+	text-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+#nav_banner {
+    font-family: var(--nav-font);
+	font-size: 1.5em;
+}
+
+#nav_links {
+	display: flex;
+	column-gap: 1em;
+}
+
+#nav_links .nav-link {
+	color: inherit;
+	text-decoration-color: transparent;
+	transition: 0.2s ease;
+}
+
+#nav_links .nav-link:hover {
+	text-decoration-color: white;
+	text-shadow: 0 0 7px rgba(255,255,255,0.7);
+}
+
 
 /* --- HERO SECTION --- */
 
 section {
     padding: 3em 2em;
     margin: 0 auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 #hero{
@@ -71,17 +116,22 @@ section {
 }
 
 #heroImage img {
-    height: 50vw;
+    display: block;
+    margin: 0 auto;
+    width: 30vw;
+    object-fit: contain;
 }
 
 /* Content */
 
 .content h1 {
+    font-family: var(--display-font);
     font-size: 5vw;
 }
 
 .content p {
-    font-size: 2.25vw;
+    font-family: var(--text-font);
+    font-size: 2vw;
     margin-bottom: 2vw;
 }
 
