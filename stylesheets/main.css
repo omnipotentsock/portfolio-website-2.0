@@ -87,10 +87,10 @@ html {
 /* --- HERO SECTION --- */
 
 section {
-    padding: 3em 2em;
+    padding: 3rem 2rem;
     margin: 0 auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
 }
 
 #hero{
@@ -104,7 +104,7 @@ section {
 }
 
 #hero div {
-    padding: 1em 2vw;
+    padding: 1em 2em;
 }
 
 #hero .content {
@@ -117,8 +117,9 @@ section {
 
 #heroImage img {
     display: block;
-    margin: 0 auto;
-    width: 30vw;
+    /* margin: 0 auto; */
+    float: right;
+    width: 15rem;
     object-fit: contain;
 }
 
@@ -126,27 +127,27 @@ section {
 
 .content h1 {
     font-family: var(--display-font);
-    font-size: 5vw;
+    font-size: 2rem;
 }
 
 .content p {
     font-family: var(--text-font);
-    font-size: 2vw;
-    margin-bottom: 2vw;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .content a {
 
-    padding: 0.5vw 1.5vw;
+    padding: 0.5rem 1rem;
 
-    font-size: 1.75vw;
+    font-size: 0.75rem;
 
     background-color: var(--jet);
     color: var(--mint);
 
     text-decoration: none;
 
-    border-radius: 0.25rem;
+    border-radius: 0.5em;
 }
 
 /* Bg Image */
@@ -178,7 +179,7 @@ a#redirect {
  /* Hero */
 
 
-
+ content
 /* Scrollbar */
 
 body::-webkit-scrollbar{
